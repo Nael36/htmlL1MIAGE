@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Informatiques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-circle">SI</div>
+            </div>
+            <h1>Services Informatiques</h1>
+        </header>
+
+        <!-- Menu déroulant -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                
+                <li class="dropdown">
+                    <a href="#presentation">Présentation ▼</a>
+                    <ul class="submenu">
+                        <li><a href="#historique">Historique</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#intelligence">Intelligence économique</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#prestations">Prestations ▼</a>
+                    <ul class="submenu">
+                        <li><a href="#reseaux">Réseaux informatiques</a></li>
+                        <li><a href="#telecom">Télécommunications</a></li>
+                        <li><a href="#genie">Génie Logiciel</a></li>
+                        <li><a href="#techno">Technologie internet</a></li>
+                        <li><a href="#securite">Sécurité des SI</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#formations">Formations ▼</a>
+                    <ul class="submenu">
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#seminaires">Séminaires</a></li>
+                        <li><a href="#conferences">Conférences</a></li>
+                        <li><a href="#ateliers">Ateliers</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#partenaires">Partenaires</a></li>
+                
+                <li class="dropdown">
+                    <a href="#support">Support ▼</a>
+                    <ul class="submenu">
+                        <li><a href="#assistance">Assistance</a></li>
+                        <li><a href="#telechargement">Téléchargement</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <!-- Carrousel d'images -->
+        <div class="carrousel">
+            <div class="carrousel-images">
+                <img src="slide1.jpg" alt="Image 1">
+                <img src="slide2.jpg" alt="Image 2">
+                <img src="slide3.jpg" alt="Image 3">
+                <img src="slide4.jpg" alt="Image 4">
+            </div>
+        </div>
+        <!-- Contenu principal -->
+        <main>
+            <section class="content">
+                <h2>Bienvenue chez Services Informatiques</h2>
+                <p>Experts en solutions digitales innovantes</p>
+                
+                <!-- Formulaire à onglets -->
+                <div class="form-container">
+                    <div class="tabs">
+                        <button class="tab active" data-tab="client">Client</button>
+                        <button class="tab" data-tab="fournisseur">Fournisseur</button>
+                        <button class="tab" data-tab="partenaire">Partenaire</button>
+                    </div>
+
+                    <form class="form active" id="client">
+                        <input type="text" placeholder="Nom complet" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Téléphone">
+                        <button type="submit">Envoyer</button>
+                    </form>
+
+                    <form class="form" id="fournisseur">
+                        <input type="text" placeholder="Nom entreprise" required>
+                        <input type="text" placeholder="Secteur d'activité">
+                        <input type="email" placeholder="Email professionnel" required>
+                        <button type="submit">Envoyer</button>
+                    </form>
+
+                    <form class="form" id="partenaire">
+                        <input type="text" placeholder="Nom organisation" required>
+                        <input type="text" placeholder="Type de partenariat">
+                        <input type="email" placeholder="Email" required>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Menu droit -->
+            <aside class="right-menu">
+                <h3>Actualités</h3>
+                <ul>
+                    <li>Nouvelle formation Cloud Computing</li>
+                    <li>Mise à jour sécurité réseau</li>
+                    <li>Conférence IA le 15/04</li>
+                    <li>Atelier HTML/CSS gratuit</li>
+                </ul>
+            </aside>
+        </main>
+
+        <!-- Pied de page -->
+        <footer>
+            <p>2025 Services Informatiques - Licence 1 GI/MIAGE IUA</p>
+        </footer>
+    </div>
+</body>
+</html>
